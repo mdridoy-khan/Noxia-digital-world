@@ -1,0 +1,111 @@
+/* Normal desktop(xl) :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop(lg) :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+.header-cta span {
+	margin-right: 50px;
+}
+.header-right {
+	margin-left: 50px;
+}
+.slider-thumb {
+	margin-top: 200px;
+}
+.slider-thumb img {
+	margin-left: 40px;
+	max-width: 100%;
+}
+.slider-text {
+	margin-top: 180px;
+}
+.slider-text h2 {
+	font-size: 75px;
+}
+.slider-active .slick-arrow {
+	left: 20px;
+}
+.slider-active .fa-chevron-right.slick-arrow {
+	right: 20px;
+}
+.solution-img img {
+	max-width: 100%;
+}
+.team-img img {
+	max-width: 100%;
+}
+.quote-wrapper {
+	margin-left: 0;
+}
+}
+
+ 
+/* Tablet desktop(md) :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.header-cta span {
+	margin-right: 30px;
+}
+.main-menu ul li {
+	margin-left: 30px;
+}
+.slider-thumb img {
+	max-width: 100%;
+}
+.slider-thumb {
+	margin-top: 286px;
+}
+.slider-text {
+	margin-top: 200px;
+}
+.ceo-text {
+	margin-bottom: 80px;
+}
+.ico-text h2 {
+	font-size: 45px;
+}
+.ico-text span.work {
+	font-size: 15px;
+}
+.section-title h2 {
+	font-size: 50px;
+}
+.event-text {
+	padding: 0px 30px;
+}
+.event-text h3 {
+	font-size: 40px;
+}
+.team-img img {
+	max-width: 100%;
+}
+.team-content h3 {
+	font-size: 27px;
+}
+.team-content span {
+	font-size: 16px;
+}
+}
+
+ 
+/* small mobile(xs) :320px. */
+@media (max-width: 767px) {
+
+
+ 
+}
+ 
+/* Large Mobile(sm) :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.menu-area {
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+.logo img {
+	padding-top: 10px;
+}
+ 
+}
